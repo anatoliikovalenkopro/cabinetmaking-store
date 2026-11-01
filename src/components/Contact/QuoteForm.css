@@ -1,0 +1,93 @@
+.quote-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 34px;
+}
+
+.quote-form__field {
+  display: grid;
+  gap: 6px;
+}
+
+.quote-form__field--full {
+  grid-column: 1 / -1;
+}
+
+.quote-form label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+  width: 100%;
+  font: inherit;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.quote-form input:focus,
+.quote-form select:focus,
+.quote-form textarea:focus {
+  outline: 2px solid var(--wood-light);
+  border-color: var(--wood);
+}
+
+.quote-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.quote-form__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quote-form__chips label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quote-form__chips label.is-checked {
+  border-color: var(--wood);
+  background: #f3ebe0;
+}
+
+.quote-form__chips input {
+  width: auto;
+  accent-color: var(--wood);
+}
+
+.quote-form__success {
+  grid-column: 1 / -1;
+  background: #e6eee8;
+  color: var(--forest);
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .quote-form {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+}

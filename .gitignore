@@ -1,7 +1,15 @@
+# Dependencies & build
+node_modules/
+dist/
+
 # Claude / AI assistant files
 .claude/
 CLAUDE.md
 CLAUDE.local.md
+
+# Env
+.env
+.env.local
 
 # OS / editor
 .DS_Store

@@ -1,0 +1,40 @@
+.contact {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+}
+
+.contact .section-header {
+  margin-bottom: 30px;
+}
+
+.contact__info {
+  display: grid;
+  gap: 22px;
+}
+
+.contact__item {
+  display: flex;
+  gap: 14px;
+}
+
+.contact__item strong {
+  display: block;
+}
+
+.contact__item span:not(.icon-box) {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 980px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

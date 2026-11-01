@@ -1,0 +1,22 @@
+.trust-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding: 26px 0;
+}
+
+.trust-bar__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.trust-bar__inner span::before {
+  content: '✓';
+  color: var(--wood);
+  font-weight: 700;
+  margin-right: 8px;
+}

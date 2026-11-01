@@ -1,0 +1,58 @@
+.alberta {
+  background: #efe8dd;
+}
+
+.alberta__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.alberta .section-header {
+  margin-bottom: 26px;
+}
+
+.alberta__cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.alberta__cities span {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.alberta__points {
+  display: grid;
+  gap: 18px;
+}
+
+.alberta__point {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+}
+
+.alberta__point h3 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.alberta__point p {
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+@media (max-width: 980px) {
+  .alberta__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

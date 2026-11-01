@@ -1,0 +1,14 @@
+/* Wood-grain placeholders — swap for real photos later */
+.wood {
+  background:
+    repeating-linear-gradient(92deg, rgba(0,0,0,.05) 0 2px, transparent 2px 9px),
+    repeating-linear-gradient(88deg, rgba(255,255,255,.06) 0 1px, transparent 1px 23px),
+    linear-gradient(135deg, var(--c1, #b98552), var(--c2, #7a4f2c));
+}
+.wood--walnut { --c1: #7a5234; --c2: #3e2717; }
+.wood--oak    { --c1: #d8b483; --c2: #a77a48; }
+.wood--maple  { --c1: #ecd9b8; --c2: #c9a776; }
+.wood--cherry { --c1: #b5603c; --c2: #6f2f1b; }
+.wood--dark   { --c1: #5b3b22; --c2: #1f140c; }
+.wood--paint  { background: linear-gradient(135deg, #3d5a4a, #22362b); }
+.wood--white  { background: linear-gradient(135deg, #f3efe8, #d9d2c6); }

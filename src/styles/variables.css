@@ -1,0 +1,16 @@
+:root {
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --ink: #1f1a16;
+  --muted: #6b625a;
+  --line: #e7dfd4;
+  --wood: #9a6b3f;
+  --wood-dark: #6e4a2a;
+  --wood-light: #d9b98f;
+  --forest: #2f4a3a;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(31, 26, 22, 0.08);
+  --max: 1180px;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-head: 'Fraunces', Georgia, serif;
+}

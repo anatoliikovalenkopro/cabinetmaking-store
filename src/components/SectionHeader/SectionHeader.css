@@ -1,0 +1,16 @@
+.section-header {
+  margin-bottom: 48px;
+}
+
+.section-header .lead {
+  margin-top: 12px;
+}
+
+.section-header--center {
+  text-align: center;
+}
+
+.section-header--center .lead {
+  margin-left: auto;
+  margin-right: auto;
+}

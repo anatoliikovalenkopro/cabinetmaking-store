@@ -1,0 +1,30 @@
+// SVG path data for line icons (24x24 viewBox)
+const icons = {
+  kitchen: 'M3 3h18v18H3zM3 10h18M12 10v11M9.5 14v3M14.5 14v3',
+  bath: 'M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM6 12V5a2 2 0 0 1 4 0M7 20l-1 2M17 20l1 2',
+  shelf: 'M4 3v18M20 3v18M4 9h16M4 15h16M7 6h3M13 12h4M8 18h2',
+  closet: 'M5 2h14v20H5zM12 2v20M10 11v2M14 11v2',
+  boot: 'M7 3v10l-3 3v4h14l-1-4-5-2V3z',
+  office: 'M3 8h18M5 8v12M19 8v12M5 14h7M12 8v12M3 8l2-4h14l2 4',
+  tv: 'M2 5h20v11H2zM8 20h8M12 16v4',
+  bar: 'M8 2h8l-1 7a3 3 0 0 1-6 0zM12 12v8M8 22h8',
+  laundry: 'M4 2h16v20H4zM4 7h16M7 4.5h1M16 14a4 4 0 1 1-8 0 4 4 0 0 1 8 0z',
+  garage: 'M3 21V9l9-6 9 6v12M7 21v-8h10v8M7 17h10',
+  table: 'M2 8h20M4 8v12M20 8v12M6 8v5h12V8',
+  slab: 'M3 9c3-2 6 1 9-1s6 0 9 1v4c-3-1-6-3-9-1s-6-1-9 1zM6 13v7M18 13v7',
+  chair: 'M7 2v12h10V2M7 14v8M17 14v8M7 10h10',
+  bed: 'M2 18V6M2 14h20v4M22 18v-4a3 3 0 0 0-3-3H10v3',
+  store: 'M3 9l2-6h14l2 6M3 9h18v12H3zM9 21v-6h6v6',
+  desk: 'M2 10h20M4 10v10M20 10v10M14 10v6h6',
+  building: 'M4 22V4h10v18M14 10h6v12M8 8h2M8 12h2M8 16h2M2 22h20',
+  brush: 'M18 2l4 4-10 10-4-4zM8 12l-3 3a3 3 0 0 0 0 4 3 3 0 0 0 4 0l3-3',
+  counter: 'M2 8h20v4H2zM4 12v9h16v-9M12 12v9',
+  wrench: 'M14.7 6.3a4 4 0 0 0 5 5L22 14l-8 8-2.3-2.3a4 4 0 0 0-5-5L2 10l8-8z',
+  ruler: 'M3 17L17 3l4 4L7 21zM7 13l2 2M10 10l2 2M13 7l2 2',
+  cabin: 'M2 12l10-9 10 9M5 10v11h14V10M10 21v-6h4v6',
+  phone: 'M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z',
+  mail: 'M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM22 6l-10 7L2 6',
+  pin: 'M12 22s8-6.5 8-13a8 8 0 1 0-16 0c0 6.5 8 13 8 13zM15 9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z',
+};
+
+export default icons;
