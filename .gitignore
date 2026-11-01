@@ -1,0 +1,10 @@
+# Claude / AI assistant files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
